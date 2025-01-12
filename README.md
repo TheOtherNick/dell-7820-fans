@@ -4,18 +4,35 @@ Dell Precision Workstation 7820 Fan Tools
 ### Usage
 Compile program:
 
-<pre>
+```
 gcc dell_7820_fan_tools.c -o dell_7820_fan_tools
-</pre>
+```
+Or, use `build.sh` (does above, and runs binary afterwards).
 
-Read fans using sudo
 
-<pre>
+Read fans 
+```
 sudo ./dell_7820_fan_tools
-</pre>
+```
 
-Control two rear fans using sudo
+Set low fan speeding for rear fans
+```
+sudo ./dell_7820_fan_tools rear low
+```
 
-<pre>
-sudo ./dell_7820_fan_tools low
-</pre>
+Fan options:
+- `rear` - rear case fans
+- `sys` - front case fans
+- `cpu` - CPU fans
+
+Speed options:
+- `low` - Fans run at low speed
+- `high` - Fans run at high speed
+
+
+### Other remarks...
+When playing with fan speeds in a Dell (atleast in the Precision 7820), CPU fan
+speed is limited to Off/Low/High speeds.  Still working on determining if there
+is any where to see if there is a better way to control speeds...  thanks
+to [beikesea:dell-7280-fans](https://github.com/beikesea/dell-7820-fans) for the
+original work into tweaking speeds.
