@@ -35,6 +35,7 @@ Speed options:
 ### Other remarks...
 When playing with fan speeds in a Dell (atleast in the Precision 7820), CPU fan
 speed is limited to Off/Low/High speeds.  Still working on determining if there
-is any where to see if there is a better way to control speeds...  thanks
-to [beikesea:dell-7280-fans](https://github.com/beikesea/dell-7820-fans) for the
+is any where to see if there is a better way to control speeds...  
+
+Thanks to [beikesea:dell-7280-fans](https://github.com/beikesea/dell-7820-fans) for the
 original work into tweaking speeds.
