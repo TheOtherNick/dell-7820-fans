@@ -11,6 +11,14 @@ Following information was referenced before and after working on extending origi
 
 [Arch:  Fan Speed Control](https://wiki.archlinux.org/title/Fan_speed_control) Arch Linux Documentation on fan control 
 
+[github:algirdasc:t3600_fancontrol](https://github.com/algirdasc/t3600_fancontrol)
+
+[github:clopez:dellfan](https://github.com/clopez/dellfan)
+
+[Baeldung: Controlling Fan Speed in Linux](https://www.baeldung.com/linux/control-fan-speed)
+
+[github:vitorasfsr:i8kutils](https://github.com/vitorafsr/i8kutils)
+
 
 
 ### Random commands and packages experimented with
