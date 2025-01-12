@@ -39,3 +39,5 @@ is any where to see if there is a better way to control speeds...
 
 Thanks to [beikesea:dell-7280-fans](https://github.com/beikesea/dell-7820-fans) for the
 original work into tweaking speeds.
+
+Note on development and other resources can be found in [./RESEARCH-NOTES.md](RESEARCH-NOTES.md).  Note, this file is considered to be very dirty (no formatting/salient thoughts/etc).
