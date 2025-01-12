@@ -1,7 +1,7 @@
 # dell-7820-fans
 Dell Precision Workstation 7820 Fan Tools
 
-### Usage
+### Compiling
 Compile program:
 
 ```
@@ -10,12 +10,14 @@ gcc dell_7820_fan_tools.c -o dell_7820_fan_tools
 Or, use `build.sh` (does above, and runs binary afterwards).
 
 
-Read fans 
+### Usage
+
+Read fans: 
 ```
 sudo ./dell_7820_fan_tools
 ```
 
-Set low fan speeding for rear fans
+Set low fan speed for rear fans:
 ```
 sudo ./dell_7820_fan_tools rear low
 ```
