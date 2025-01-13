@@ -120,8 +120,9 @@ int main(int argc, char **argv)
     } else if (strcmp(fanSpeed,"high")==0) {
        i8kFanSpeed = 2;
     } else {
-       // safely fall back to low, at least fan is running.
-       i8kFanSpeed = 1;
+       printf("incorrect speed specified, exiting\n");
+       close(i8k_fd);
+       return -1;
     }
 
     if (strcmp(fanBank,"rear")==0) {
