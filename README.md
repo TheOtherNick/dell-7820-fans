@@ -9,7 +9,6 @@ gcc dell_7820_fan_tools.c -o dell_7820_fan_tools
 ```
 Or, use `build.sh` (does above, and runs binary afterwards).
 
-
 ### Usage
 
 Read fans: 
